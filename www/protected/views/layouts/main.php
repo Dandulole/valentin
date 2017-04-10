@@ -49,7 +49,7 @@
 	<div class="top-wr">
 		<div class="main">
 			<ul class="top">
-				<li class="logo"><a href="#"><img src="images/logo.png" alt="" /></a></li>
+				<li class="logo"><a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" alt="" /></a></li>
 				<li class="flag">
 					<div class="right">
 						<p>многоканальный</p>
@@ -72,7 +72,7 @@
 					<nav>
 						<ul class="inline-block">
 							<li><a href="#"><span>Главная</span></a></li>
-							<li><a href="#"><span>Услуги</span></a></li>
+                                                        <li><?php echo CHtml::link('<span>Услуги</span>', array('/services/')); ?></li> 
 							<li><a href="#"><span>Магазин</span></a></li>
 							<li class="hasChild"><a href="#"><span>Реализованные проекты</span></a>
 								<ul>

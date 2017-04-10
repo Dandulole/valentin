@@ -109,3 +109,200 @@ Stack trace:
 REQUEST_URI=/veber/www/index.php/gii/model/index
 HTTP_REFERER=http://localhost/veber/www/index.php/gii/default/index
 ---
+2017/04/10 21:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/index.php/images/logo.png
+HTTP_REFERER=http://localhost/veber/www/index.php/services
+---
+2017/04/10 21:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/index.php/images/logo.png
+HTTP_REFERER=http://localhost/veber/www/index.php/services
+---
+2017/04/10 21:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.min.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/js/jquery.min.map
+---
+2017/04/10 21:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
+2017/04/10 21:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/index.php/images/logo.png
+HTTP_REFERER=http://localhost/veber/www/index.php/services
+---
+2017/04/10 21:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
+2017/04/10 21:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.min.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/js/jquery.min.map
+---
+2017/04/10 21:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
+2017/04/10 21:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.min.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/js/jquery.min.map
+---
+2017/04/10 21:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
+2017/04/10 21:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.min.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/js/jquery.min.map
+---
+2017/04/10 21:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
+2017/04/10 21:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/index.php/images/logo.png
+HTTP_REFERER=http://localhost/veber/www/index.php/services
+---
+2017/04/10 21:10:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/index.php/images/logo.png
+HTTP_REFERER=http://localhost/veber/www/index.php/services
+---
+2017/04/10 21:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
+2017/04/10 21:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.min.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/js/jquery.min.map
+---
+2017/04/10 21:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lightgallery.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lightgaller...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lightgallery.css.map
+---
+2017/04/10 21:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/lg-transitions.css.map".' in C:\xampp\htdocs\veber\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('css/lg-transiti...')
+#1 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/veber/www/css/lg-transitions.css.map
+---
