@@ -12,6 +12,6 @@ return array(
 	'username' => 'root',
 	'password' => '',
 	'charset' => 'utf8',
-        'tablePrifix' => 'veb_',
+        'tablePrefix' => 'veb_',
 	
 );

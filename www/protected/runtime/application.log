@@ -88,3 +88,24 @@ Stack trace:
 #21 {main}
 REQUEST_URI=/veber/www/
 ---
+2017/04/10 20:48:39 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbConnection.tablePrifix".' in C:\xampp\htdocs\veber\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\veber\framework\YiiBase.php(220): CComponent->__set('tablePrifix', 'veb_')
+#1 C:\xampp\htdocs\veber\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\veber\framework\base\CModule.php(103): CModule->getComponent('db')
+#3 C:\xampp\htdocs\veber\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#4 C:\xampp\htdocs\veber\framework\web\CFormModel.php(39): ModelCode->init()
+#5 C:\xampp\htdocs\veber\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#6 C:\xampp\htdocs\veber\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 C:\xampp\htdocs\veber\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 C:\xampp\htdocs\veber\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\veber\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\veber\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\veber\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#13 C:\xampp\htdocs\veber\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\veber\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/veber/www/index.php/gii/model/index
+HTTP_REFERER=http://localhost/veber/www/index.php/gii/default/index
+---
