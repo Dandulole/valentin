@@ -41,7 +41,7 @@ return array(
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-                        'showScriptName'=>'false',
+                        'showScriptName'=>false,
 			'rules'=>array(
                                 '<controller:\w+>'=>'<controller>/index',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
