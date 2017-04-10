@@ -71,7 +71,7 @@
 					</ul>
 					<nav>
 						<ul class="inline-block">
-							<li><a href="#"><span>Главная</span></a></li>
+                                                        <li><?php echo CHtml::link('<span>Главная</span>', array('/')); ?></li> 
                                                         <li><?php echo CHtml::link('<span>Услуги</span>', array('/services/')); ?></li> 
 							<li><a href="#"><span>Магазин</span></a></li>
 							<li class="hasChild"><a href="#"><span>Реализованные проекты</span></a>
