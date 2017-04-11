@@ -83,7 +83,7 @@
 								</ul>
 							</li>
 							<li><a href="#"><span>Отзывы</span></a></li>
-							<li><a href="#"><span> компании</span></a></li>
+                                                        <li><?php echo CHtml::link('<span>О компании</span>', array('/about/')); ?></li> 
 							<li><a href="#"><span>Контакты</span></a></li>
 						</ul>
 					</nav>
