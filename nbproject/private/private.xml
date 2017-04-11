@@ -4,7 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/veber/www/protected/views/layouts/main.php</file>
-            <file>file:/C:/xampp/htdocs/veber/www/protected/views/layouts/main_orig.php</file>
+            <file>file:/C:/xampp/htdocs/veber/www/protected/controllers/ServicesController.php</file>
+            <file>file:/C:/xampp/htdocs/veber/www/protected/config/main.php</file>
+            <file>file:/C:/xampp/htdocs/veber/www/protected/views/services/index.php</file>
+            <file>file:/C:/xampp/htdocs/veber/www/protected/config/console.php</file>
             <file>file:/C:/xampp/htdocs/veber/www/protected/views/site/index.php</file>
             <file>file:/C:/xampp/htdocs/veber/www/protected/models/Services.php</file>
         </group>
